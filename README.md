@@ -6,14 +6,10 @@
    - Learning rate (\( \eta \)) is set.
    - Number of epochs (iterations) is set.
 
-   ![Initialization](https://i.imgur.com/ztvAzgx.png)
-
 2. **Inputs and Weights:**
 
    - Inputs \( x_1 \) and \( x_2 \) are provided.
    - Bias \( x_0 \) is set to 1.
-
-   ![Inputs and Weights](https://i.imgur.com/3oj0q9z.png)
 
 3. **Weighted Sum Calculation:**
 
@@ -21,8 +17,6 @@
      \[
      z = w_0 \cdot x_0 + w_1 \cdot x_1 + w_2 \cdot x_2
      \]
-
-   ![Weighted Sum Calculation](https://i.imgur.com/PJ7nW4K.png)
 
 4. **Activation Function:**
 
@@ -34,8 +28,6 @@
      \end{cases}
      \]
 
-   ![Activation Function](https://i.imgur.com/Uci5DQ2.png)
-
 5. **Training Process:**
 
    - For each epoch, iterate through all training samples:
@@ -45,13 +37,9 @@
        w_i \leftarrow w_i + \eta \cdot (\text{target} - \text{prediction}) \cdot x_i
        \]
 
-   ![Training Process](https://i.imgur.com/ERvW6PM.png)
-
 6. **Training Example:**
 
    - Let's go through one epoch with an example:
-
-     ![Training Example](https://i.imgur.com/EApJLyD.png)
 
      - Assume initial weights \( w_0 = 0, w_1 = 0, w_2 = 0 \).
      - Learning rate \( \eta = 0.01 \).
